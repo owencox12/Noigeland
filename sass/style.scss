@@ -1,0 +1,22 @@
+* {
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+body.lock {
+    overflow: hidden
+}
+
+
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/posts';
+@import 'blocks/last';
+@import 'blocks/button';
+@import 'blocks/gallery';
+@import 'blocks/footer';
+@import 'blocks/media';

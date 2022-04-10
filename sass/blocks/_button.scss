@@ -1,0 +1,34 @@
+.button {
+    &--last {
+        width: 205px;
+        height: 54px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        /* identical to box height, or 120% */
+
+        letter-spacing: 1px;
+        text-transform: uppercase;
+
+        color: #000000;
+
+    }
+    &--footer {
+        width: 79px;
+        height: 55px;
+        background: #000;
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border: none;
+    }
+}

@@ -1,0 +1,61 @@
+.gallery {
+    min-height: 1300px;
+    padding-top: 60px;
+    &__title {
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #999999;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 49%;
+        &:nth-child(3) {
+            margin-top: 50px;
+        }
+        &:nth-child(4) {
+            margin-top: 50px;
+        }
+        &_title {
+            font-family: 'Libre Franklin';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #999999;
+            margin-top: 25px;
+        }
+        &_descr {
+            font-family: 'Tenor Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 19px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #000000;
+            margin-top: 18px;
+        }
+        &_text {
+            font-family: 'Libre Franklin';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 12px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #000000;
+            margin-top: 15px;
+        }
+    }
+}
